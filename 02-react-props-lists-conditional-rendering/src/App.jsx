@@ -1,5 +1,6 @@
 import Greeting from "./components/greeting/index.jsx";
 import ShoppingList from "./components/shoppingList/index.jsx";
+import OrderStatus from "./components/orderStatus/index.jsx";
 
 function App() {
   const items = [
@@ -10,10 +11,22 @@ function App() {
     { id: 5, name: "fruits" },
   ];
 
+  const orders = [
+    { orderId: 123, status: "в пути" },
+    { orderId: 124, status: "обработан" },
+    { orderId: 125, status: "доставлен" },
+  ];
+
   return (
     <div>
       <Greeting name="Pavel" />
       <ShoppingList items={items} />
+
+      <h2>Статусы заказов</h2>
+
+      {orders.map((order) => (
+        <OrderStatus key={order.orderId} {...order} />
+      ))}
     </div>
   );
 }
