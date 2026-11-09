@@ -1,0 +1,44 @@
+.people-list {
+  max-width: 420px;
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 18px;
+  background: #1e2430;
+  color: white;
+}
+
+.people-list h2 {
+  text-align: center;
+}
+
+.people-list > p {
+  text-align: center;
+  color: #aab2c0;
+}
+
+.people-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.people-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid #3b4555;
+}
+
+.people-list button {
+  padding: 8px 12px;
+  background: #9b3540;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.people-list button:hover {
+  background: #c44550;
+}

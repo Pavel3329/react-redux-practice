@@ -1,0 +1,51 @@
+.rating-card {
+  max-width: 420px;
+  margin: 60px auto;
+  padding: 30px;
+  text-align: center;
+  background: #1e2430;
+  color: white;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.rating-card h2 {
+  margin: 0 0 12px;
+}
+
+.rating-card p {
+  color: #aab2c0;
+}
+
+.rating-image {
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rating-image img {
+  width: 260px;
+  height: 70px;
+  object-fit: contain;
+}
+
+.rating-buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.rating-buttons button {
+  padding: 12px;
+  border: 1px solid #495266;
+  border-radius: 8px;
+  background: #30394a;
+  color: white;
+  cursor: pointer;
+}
+
+.rating-buttons button:hover {
+  background: #4663a0;
+}
