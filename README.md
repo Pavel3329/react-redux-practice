@@ -2,37 +2,55 @@
 
 Учебный монорепозиторий для практических заданий по React и Redux.
 
-## Technologies
+A collection of practical exercises and projects completed while learning React, Redux, and modern frontend development.
 
-- JavaScript (ES6+)
-- React
-- Vite
-- Redux Toolkit (planned)
-- Git & GitHub
+The repository is organized as a collection of independent projects built with **React, JavaScript, and Vite**.
 
 ## Projects
 
-### 01 — React Components
+| #   | Project                                    | Topics                                                            |
+| --- | ------------------------------------------ | ----------------------------------------------------------------- |
+| 01  | React Components Basics                    | Functional components, JSX, component composition                 |
+| 02  | React Props, Lists & Conditional Rendering | Props, rendering lists, conditional rendering                     |
+| 03  | React Practicum 2                          | Component composition, nested objects, props, practical exercises |
+| 04  | React useState Practice                    | useState, event handlers, state updates, dynamic lists            |
 
-Первое практическое задание по React.
+## Technologies
 
-Реализованы четыре независимых компонента:
+- React
+- JavaScript (ES6+)
+- Vite
+- HTML5 & CSS3
+- Git & GitHub
 
-- `ImageComponent` — отображение изображения.
-- `VideoComponent` — воспроизведение видео.
-- `ParagraphsComponent` — заголовки и параграфы.
-- `ListsComponent` — упорядоченный и неупорядоченный списки с вложенными элементами.
+## Getting Started
 
-Все компоненты объединены в `App.jsx`.
+Each project is independent and can be run locally.
 
-## Run locally
+1. Navigate to the desired project directory.
+2. Install dependencies:
 
-```bash
-cd 01-react-components
-npm install
-npm run dev
+   `npm install`
+
+3. Start the development server:
+
+   `npm run dev`
+
+## Repository Structure
+
+```text
+react-redux-practice/
+├── 01-react-components-basics/
+├── 02-react-props-lists-conditional-rendering/
+├── 03-react-practicum-2/
+├── 04-react-usestate-practice/
+└── README.md
 ```
 
-## Purpose
+## Learning Goals
+
+The purpose of this repository is to develop a solid understanding of React fundamentals, component architecture, state management, and modern frontend development practices through hands-on exercises.
+
+More projects will be added as the course progresses.
 
 Изучение компонентной архитектуры React, JSX, импорта и экспорта модулей, а также принципов построения пользовательских интерфейсов.
