@@ -1,0 +1,27 @@
+.quiz {
+  width: 100%;
+  max-width: 420px;
+  padding: 36px 28px;
+  background: white;
+  border-radius: 18px;
+  text-align: center;
+  box-shadow: 0 12px 35px rgba(30, 58, 95, 0.15);
+}
+
+.quiz h1 {
+  margin: 0 0 30px;
+  color: #1e3a8a;
+}
+
+.quiz h2 {
+  margin-bottom: 28px;
+  font-size: 32px;
+  color: #334155;
+}
+
+.points {
+  margin-top: 28px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #2563eb;
+}
