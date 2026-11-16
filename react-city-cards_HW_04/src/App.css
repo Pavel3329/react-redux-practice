@@ -1,0 +1,11 @@
+.app {
+  min-height: 100vh;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #dbeafe, #f1f5f9);
+  text-align: center;
+}
+
+.app h1 {
+  margin-bottom: 30px;
+  color: #1e3a5f;
+}

@@ -1,0 +1,15 @@
+
+.selector {
+  margin-bottom: 30px;
+}
+
+.select {
+  width: 260px;
+  max-width: 100%;
+  padding: 12px 16px;
+  border: 1px solid #93c5fd;
+  border-radius: 10px;
+  background: white;
+  font-size: 16px;
+  cursor: pointer;
+}
