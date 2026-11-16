@@ -1,0 +1,10 @@
+.noteList {
+  width: 100%;
+}
+
+.notes {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 14px;
+}

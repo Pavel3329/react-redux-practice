@@ -1,0 +1,28 @@
+.note {
+  min-height: 66px;
+  padding: 10px;
+  background: #b9e0ef;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.note span {
+  font-size: 20px;
+  overflow-wrap: anywhere;
+}
+
+.active {
+  color: #304d86;
+}
+
+.done {
+  color: #289879;
+}
+
+.note input {
+  cursor: pointer;
+  accent-color: #1685ff;
+}
