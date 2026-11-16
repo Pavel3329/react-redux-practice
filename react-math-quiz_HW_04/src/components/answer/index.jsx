@@ -5,6 +5,7 @@ function Answer({ updatePoints }) {
   const [answer, setAnswer] = useState("");
 
   function handleChange(event) {
+    // обновляет локальное состояние компонента Answer, -Сохраняет введённый текст
     setAnswer(event.target.value);
   }
 
@@ -18,6 +19,7 @@ function Answer({ updatePoints }) {
     // answer содержит строку, - Number() преобразует её в число
     // Ответ передаётся в MathQuiz
     updatePoints(Number(answer));
+    // после проверки ответа поле ввода очистится
     setAnswer("");
   }
 
@@ -29,6 +31,7 @@ function Answer({ updatePoints }) {
         type="number"
         placeholder="Ваш ответ"
         value={answer}
+        // onChange вызывает handleChange, когда изменяется значение поля.
         onChange={handleChange}
         required
       />
