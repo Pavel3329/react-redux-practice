@@ -10,7 +10,7 @@ function LanguageProvider({ children }) {
   }
 
   return (
-    // LanguageContext.Provider -Предоставляет value дочерним компонентам..
+    // LanguageContext.Provider -Предоставляет value дочерним, вложенным компонентам, использующим этот контекст...
     // И когда LanguageProvider выполняет:
     <LanguageContext.Provider value={{ language, switchLanguage }}>
       {/* на месте {children} оказываются наши <h1> и <p></p> */}
@@ -35,3 +35,6 @@ export default LanguageProvider;
 //LanguageProvider.jsx, -Получает props.children, хранит language в useState
 
 // LanguageProvider.jsx	Хранит язык, функцию изменения и предоставляет их через Provider
+
+// Главное, что нужно запомнить: Context не размножает состояние по компонентам.
+// Он позволяет разным компонентам пользоваться одним общим источником состояния.
