@@ -1,0 +1,26 @@
+.item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px;
+  border: 1px solid #44415d;
+  margin-bottom: 10px;
+}
+
+.item input {
+  cursor: pointer;
+}
+
+.item span {
+  flex: 1;
+  color: white;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.65;
+}
+
+.item button {
+  cursor: pointer;
+}

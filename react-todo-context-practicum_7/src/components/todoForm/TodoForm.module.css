@@ -1,0 +1,28 @@
+.form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.form input {
+  flex: 1;
+  min-width: 0;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 8px;
+  background: #c6a5c8;
+  color: white;
+}
+
+.form input::placeholder {
+  color: white;
+}
+
+.form button {
+  padding: 10px 14px;
+  border: 1px solid white;
+  border-radius: 8px;
+  background: #898fc6;
+  color: white;
+  cursor: pointer;
+}
